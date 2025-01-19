@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="e2e.feedback"
+    errors="0" failures="0" hostname="" id="" package="e2e" skipped="0"
+    tests="4" time="26.21" timestamp="">
+  
+    <testcase name="Scenario 1 - Verify that the feedback page loads correctly" classname="e2e.feedback" time="3.315" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Scenario 2 - Submit feedback successfully" classname="e2e.feedback" time="6.192" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Scenario 3 - Verify the display of received feedbacks" classname="e2e.feedback" time="2.018" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Scenario 4 - Verify the feedback counter display" classname="e2e.feedback" time="1.578" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

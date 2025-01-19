@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="e2e.geo"
+    errors="0" failures="1" hostname="" id="" package="e2e" skipped="2"
+    tests="2" time="17.02" timestamp="">
+  
+    <testcase name="Scenario 1 - Verify that the localisation page loads correctly" classname="e2e.geo" time="1.291" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Scenario 3 - Verify the map section is displayed correctly" classname="e2e.geo" time="7.216" assertions="3">
+
+    
+
+      <failure message="Testing if element &lt;.card-body&gt; contains text &#39;Localisation&#39; in 5000ms - expected &#34;contains text &#39;Localisation&#39;&#34; but got: &#34;does not contain &#39;Localisation&#39;&#34; (5531ms)">    at Scenario 3 - Verify the map section is displayed correctly (D:\Users\odilo\Documents\IMT Mines Ales\A2\Validation des logiciels\quality-env-tests\test\e2e\geo.js:46:15)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+    
+    <testcase
+      name="Scenario 4 - Verify the nearby locations and best addresses sections" classname="e2e.geo">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Scenario 5 - Verify the apartment gallery images are displayed" classname="e2e.geo">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

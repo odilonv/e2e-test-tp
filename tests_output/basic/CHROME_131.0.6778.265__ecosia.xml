@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="basic.ecosia"
+    errors="1" failures="1" hostname="" id="" package="basic" skipped="0"
+    tests="1" time="17.31" timestamp="">
+  
+    <testcase name="Demo test ecosia.org" classname="basic.ecosia" time="7.782" assertions="5">
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;.layout__content&gt; contains text &#39;Nightwatch.js&#39; in 5000ms - expected &#34;contains text &#39;Nightwatch.js&#39;&#34; but got: &#34;element could not be located&#34; (5115ms)">    at DescribeInstance.&lt;anonymous&gt; (D:\Users\odilo\Documents\IMT Mines Ales\A2\Validation des logiciels\quality-env-tests\nightwatch\examples\basic\ecosia.js:12:15)</failure>
+
+    
+    <error type="error"><![CDATA[
+    NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+    at Object.throwDecodedError (D:\Users\odilo\Documents\IMT Mines Ales\A2\Validation des logiciels\quality-env-tests\node_modules\selenium-webdriver\lib\error.js:521:15)
+    at parseHttpResponse (D:\Users\odilo\Documents\IMT Mines Ales\A2\Validation des logiciels\quality-env-tests\node_modules\selenium-webdriver\lib\http.js:514:13)
+    at Executor.execute (D:\Users\odilo\Documents\IMT Mines Ales\A2\Validation des logiciels\quality-env-tests\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Driver.execute (D:\Users\odilo\Documents\IMT Mines Ales\A2\Validation des logiciels\quality-env-tests\node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+    at async Driver.findElements (D:\Users\odilo\Documents\IMT Mines Ales\A2\Validation des logiciels\quality-env-tests\node_modules\selenium-webdriver\lib\webdriver.js:1072:17)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchWindowError
+   Unable to navigate to url https://nightwatchjs.org: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+ NoSuchWindowError
+   Error while running &#34;navigateTo&#34; command: [NoSuchWindowError] Unable to navigate to url https://nightwatchjs.org: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+
+    Error location:
+    D:\Users\odilo\Documents\IMT Mines Ales\A2\Validation des logiciels\quality-env-tests\nightwatch\examples\accessibilty-tests\websiteAccessibility.js:11
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     9 |   
+     10 |   before(async function() {
+     11 |     browser.navigateTo(&#39;https://nightwatchjs.org&#39;); 
+     12 |     await browser.axeInject();
+     13 |   });
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .setValue() command on &lt;Element [name=@searchBar]&gt;: Timed out while waiting for element &#34;textarea[name=q]&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;NoSuchWindowError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    D:\Users\odilo\Documents\IMT Mines Ales\A2\Validation des logiciels\quality-env-tests\nightwatch\examples\with-page-objects\google.js:19
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     17 | 
+     18 |   it(&#39;should find nightwatch.js in results&#39;, function(browser) {
+     19 |     homePage.setValue(&#39;@searchBar&#39;, &#39;Nightwatch.js&#39;); 
+     20 |     homePage.submit();
+     21 | 
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchWindowError
+   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+ NoSuchElementError
+   An error occurred while running .sendKeys() command on &lt;[ng-model=&#34;todoList.todoText&#34;]&gt;: Timed out while waiting for element &#34;[ng-model=&#34;todoList.todoText&#34;]&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;NoSuchWindowError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    D:\Users\odilo\Documents\IMT Mines Ales\A2\Validation des logiciels\quality-env-tests\nightwatch\examples\with-custom-commands\angularTodo.js:15
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     13 |     const elements = await browser
+     14 |       .navigateTo(&#39;https://angularjs.org&#39;)
+     15 |       .sendKeys(&#39;[ng-model=&#34;todoList.todoText&#34;]&#39;, &#39;what is nightwatch?&#39;) 
+     16 |       .click(&#39;[value=&#34;add&#34;]&#39;)
+     17 |       .angular.getElementsInList(&#39;todoList.todos&#39;); // use of custom-command
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .click() command on &lt;[value=&#34;add&#34;]&gt;: Timed out while waiting for element &#34;[value=&#34;add&#34;]&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;NoSuchWindowError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    D:\Users\odilo\Documents\IMT Mines Ales\A2\Validation des logiciels\quality-env-tests\nightwatch\examples\with-custom-commands\angularTodo.js:16
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     14 |       .navigateTo(&#39;https://angularjs.org&#39;)
+     15 |       .sendKeys(&#39;[ng-model=&#34;todoList.todoText&#34;]&#39;, &#39;what is nightwatch?&#39;)
+     16 |       .click(&#39;[value=&#34;add&#34;]&#39;) 
+     17 |       .angular.getElementsInList(&#39;todoList.todos&#39;); // use of custom-command
+     18 | 
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
